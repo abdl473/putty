@@ -1,0 +1,470 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.04.23 08:30:22 =~=~=~=~=~=~=~=~=~=~=~=
+login as: ubuntu
+Authenticating with public key "imported-openssh-key"
+Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 3.13.0-92-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+  System information as of Fri Apr 21 11:04:59 UTC 2017
+
+  System load:  0.0                Processes:           204
+  Usage of /:   27.7% of 78.61GB   Users logged in:     0
+  Memory usage: 55%                IP address for eth0: 172.31.5.218
+  Swap usage:   0%
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+30 packages can be updated.
+22 updates are security updates.
+
+New release '16.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+*** System restart required ***
+Last login: Fri Apr 21 11:05:00 2017 from 182.75.47.22
+]0;ubuntu@ip-172-31-5-218: ~ubuntu@ip-172-31-5-218:~$ [K]0;ubuntu@ip-172-31-5-218: ~ubuntu@ip-172-31-5-218:~$ sudo su
+]0;root@ip-172-31-5-218: /home/ubunturoot@ip-172-31-5-218:/home/ubuntu# cd /mnt/cdh/
+]0;root@ip-172-31-5-218: /mnt/cdhroot@ip-172-31-5-218:/mnt/cdh# ll
+total 32
+drwxr-xr-x 8 root root   4096 Apr 23 02:31 [0m[01;34m.[0m/
+drwxr-xr-x 7 root root   4096 Mar 25 01:32 [01;34m..[0m/
+drwxr-xr-x 3 hdfs hadoop 4096 Apr 23 02:33 [01;34mdn[0m/
+drwx------ 3 hdfs hadoop 4096 Apr 23 02:30 [01;34mjn[0m/
+drwxr-xr-x 3 root root   4096 Mar 25 05:50 [01;34mkafka[0m/
+drwx------ 3 hdfs hadoop 4096 Apr 23 02:31 [01;34mnn[0m/
+drwx------ 3 hdfs hadoop 4096 Apr 23 02:30 [01;34msnn[0m/
+drwxr-xr-x 5 yarn hadoop 4096 Apr 23 02:59 [01;34myarn[0m/
+]0;root@ip-172-31-5-218: /mnt/cdhroot@ip-172-31-5-218:/mnt/cdh# cd nn
+]0;root@ip-172-31-5-218: /mnt/cdh/nnroot@ip-172-31-5-218:/mnt/cdh/nn# ll
+total 16
+drwx------ 3 hdfs hadoop 4096 Apr 23 02:31 [0m[01;34m.[0m/
+drwxr-xr-x 8 root root   4096 Apr 23 02:31 [01;34m..[0m/
+drwxr-xr-x 2 hdfs hdfs   4096 Apr 23 02:31 [01;34mcurrent[0m/
+-rw-r--r-- 1 hdfs hdfs     48 Apr 23 02:31 in_use.lock
+]0;root@ip-172-31-5-218: /mnt/cdh/nnroot@ip-172-31-5-218:/mnt/cdh/nn# cd current/
+]0;root@ip-172-31-5-218: /mnt/cdh/nn/currentroot@ip-172-31-5-218:/mnt/cdh/nn/current# ll
+total 108
+drwxr-xr-x 2 hdfs hdfs    4096 Apr 23 02:31 [0m[01;34m.[0m/
+drwx------ 3 hdfs hadoop  4096 Apr 23 02:31 [01;34m..[0m/
+-rw-r--r-- 1 hdfs hdfs   83877 Apr 23 02:31 fsimage_0000000000001126853
+-rw-r--r-- 1 hdfs hdfs      62 Apr 23 02:31 fsimage_0000000000001126853.md5
+-rw-r--r-- 1 hdfs hdfs       8 Apr 23 02:31 seen_txid
+-rw-r--r-- 1 hdfs hdfs     172 Apr 23 02:31 VERSION
+]0;root@ip-172-31-5-218: /mnt/cdh/nn/currentroot@ip-172-31-5-218:/mnt/cdh/nn/current# fsimage_0000000000001125242
+fsimage_0000000000001125242: command not found
+]0;root@ip-172-31-5-218: /mnt/cdh/nn/currentroot@ip-172-31-5-218:/mnt/cdh/nn/current# fsimage_0000000000001126853[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;root@ip-172-31-5-218: /mnt/cdh/nnroot@ip-172-31-5-218:/mnt/cdh/nn# cd ..
+]0;root@ip-172-31-5-218: /mnt/cdhroot@ip-172-31-5-218:/mnt/cdh# ls -l
+total 24
+drwxr-xr-x 3 hdfs hadoop 4096 Apr 23 02:33 [0m[01;34mdn[0m
+drwx------ 3 hdfs hadoop 4096 Apr 23 02:30 [01;34mjn[0m
+drwxr-xr-x 3 root root   4096 Mar 25 05:50 [01;34mkafka[0m
+drwx------ 3 hdfs hadoop 4096 Apr 23 02:31 [01;34mnn[0m
+drwx------ 3 hdfs hadoop 4096 Apr 23 02:30 [01;34msnn[0m
+drwxr-xr-x 5 yarn hadoop 4096 Apr 23 03:01 [01;34myarn[0m
+]0;root@ip-172-31-5-218: /mnt/cdhroot@ip-172-31-5-218:/mnt/cdh# cd jn
+]0;root@ip-172-31-5-218: /mnt/cdh/jnroot@ip-172-31-5-218:/mnt/cdh/jn# ls -l
+total 4
+drwxr-xr-x 3 hdfs hdfs 4096 Apr 23 02:30 [0m[01;34mnameservice1[0m
+]0;root@ip-172-31-5-218: /mnt/cdh/jnroot@ip-172-31-5-218:/mnt/cdh/jn# cd nameservice1/
+]0;root@ip-172-31-5-218: /mnt/cdh/jn/nameservice1root@ip-172-31-5-218:/mnt/cdh/jn/nameservice1# ls -l
+total 8
+drwxr-xr-x 3 hdfs hdfs 4096 Apr 23 03:01 [0m[01;34mcurrent[0m
+-rw-r--r-- 1 hdfs hdfs   48 Apr 23 02:30 in_use.lock
+]0;root@ip-172-31-5-218: /mnt/cdh/jn/nameservice1root@ip-172-31-5-218:/mnt/cdh/jn/nameservice1# cd current/
+]0;root@ip-172-31-5-218: /mnt/cdh/jn/nameservice1/currentroot@ip-172-31-5-218:/mnt/cdh/jn/nameservice1/current# ls -l
+total 1320
+-rw-r--r-- 1 hdfs hdfs       8 Apr 23 03:02 committed-txid
+-rw-r--r-- 1 hdfs hdfs  123720 Apr 23 02:30 edits_0000000000001126854-0000000000001127675
+-rw-r--r-- 1 hdfs hdfs      42 Apr 23 02:33 edits_0000000000001127676-0000000000001127677
+-rw-r--r-- 1 hdfs hdfs   14138 Apr 23 02:35 edits_0000000000001127678-0000000000001127795
+-rw-r--r-- 1 hdfs hdfs    7158 Apr 23 02:37 edits_0000000000001127796-0000000000001127845
+-rw-r--r-- 1 hdfs hdfs    7159 Apr 23 02:39 edits_0000000000001127846-0000000000001127895
+-rw-r--r-- 1 hdfs hdfs    9668 Apr 23 02:41 edits_0000000000001127896-0000000000001127959
+-rw-r--r-- 1 hdfs hdfs    9846 Apr 23 02:43 edits_0000000000001127960-0000000000001128027
+-rw-r--r-- 1 hdfs hdfs    7357 Apr 23 02:45 edits_0000000000001128028-0000000000001128079
+-rw-r--r-- 1 hdfs hdfs    9917 Apr 23 02:47 edits_0000000000001128080-0000000000001128145
+-rw-r--r-- 1 hdfs hdfs    7158 Apr 23 02:49 edits_0000000000001128146-0000000000001128195
+-rw-r--r-- 1 hdfs hdfs    7157 Apr 23 02:51 edits_0000000000001128196-0000000000001128245
+-rw-r--r-- 1 hdfs hdfs    9669 Apr 23 02:53 edits_0000000000001128246-0000000000001128309
+-rw-r--r-- 1 hdfs hdfs    7157 Apr 23 02:55 edits_0000000000001128310-0000000000001128359
+-rw-r--r-- 1 hdfs hdfs    9666 Apr 23 02:57 edits_0000000000001128360-0000000000001128423
+-rw-r--r-- 1 hdfs hdfs    7159 Apr 23 02:59 edits_0000000000001128424-0000000000001128473
+-rw-r--r-- 1 hdfs hdfs    7457 Apr 23 03:01 edits_0000000000001128474-0000000000001128526
+-rw-r--r-- 1 hdfs hdfs 1048576 Apr 23 03:02 edits_inprogress_0000000000001128527
+-rw-r--r-- 1 hdfs hdfs       2 Apr 23 02:31 last-promised-epoch
+-rw-r--r-- 1 hdfs hdfs       2 Apr 23 02:31 last-writer-epoch
+drwxr-xr-x 2 hdfs hdfs    4096 Apr 23 02:31 [0m[01;34mpaxos[0m
+-rw-r--r-- 1 hdfs hdfs     123 Apr 23 02:30 VERSION
+]0;root@ip-172-31-5-218: /mnt/cdh/jn/nameservice1/currentroot@ip-172-31-5-218:/mnt/cdh/jn/nameservice1/current# 
+]0;root@ip-172-31-5-218: /mnt/cdh/jn/nameservice1/currentroot@ip-172-31-5-218:/mnt/cdh/jn/nameservice1/current# 
+]0;root@ip-172-31-5-218: /mnt/cdh/jn/nameservice1/currentroot@ip-172-31-5-218:/mnt/cdh/jn/nameservice1/current# 
+]0;root@ip-172-31-5-218: /mnt/cdh/jn/nameservice1/currentroot@ip-172-31-5-218:/mnt/cdh/jn/nameservice1/current# 
+]0;root@ip-172-31-5-218: /mnt/cdh/jn/nameservice1/currentroot@ip-172-31-5-218:/mnt/cdh/jn/nameservice1/current# 
+]0;root@ip-172-31-5-218: /mnt/cdh/jn/nameservice1/currentroot@ip-172-31-5-218:/mnt/cdh/jn/nameservice1/current# clear
+[H[2J]0;root@ip-172-31-5-218: /mnt/cdh/jn/nameservice1/currentroot@ip-172-31-5-218:/mnt/cdh/jn/nameservice1/current# cd
+]0;root@ip-172-31-5-218: ~root@ip-172-31-5-218:~# 
+]0;root@ip-172-31-5-218: ~root@ip-172-31-5-218:~# 
+]0;root@ip-172-31-5-218: ~root@ip-172-31-5-218:~# 
+]0;root@ip-172-31-5-218: ~root@ip-172-31-5-218:~# 
+]0;root@ip-172-31-5-218: ~root@ip-172-31-5-218:~# cd
+]0;root@ip-172-31-5-218: ~root@ip-172-31-5-218:~# ls -l
+total 104
+-rw-r--r-- 1 root root  1669 Oct 12  2014 archive.key
+-rw-r--r-- 1 root root  1669 Oct 12  2014 archive.key.1
+-rwxr-xr-x 1 root root   354 Dec 13 03:16 [0m[01;32mcmf.keytab[0m
+-rw-r--r-- 1 root root   329 Apr  9 06:36 data_failed.txt
+-rw------- 1 root root   466 Dec 19 10:12 hue.keytab
+-rw------- 1 root root 68651 Mar 25 00:24 mbox
+drwxr-xr-x 2 root root  4096 Mar 24 14:50 [01;34mmybackup[0m
+-rwxr-xr-x 1 root root     3 Aug  1  2016 [01;32mswappiness~[0m
+-rwxr-xr-x 1 root root     3 Aug  1  2016 [01;32mswappinesy~[0m
+-rwxr-xr-x 1 root root     3 Aug  1  2016 [01;32mswappinesz~[0m
+]0;root@ip-172-31-5-218: ~root@ip-172-31-5-218:~# cd mybackup/
+]0;root@ip-172-31-5-218: ~/mybackuproot@ip-172-31-5-218:~/mybackup# ls
+ib_logfile0  ib_logfile1
+]0;root@ip-172-31-5-218: ~/mybackuproot@ip-172-31-5-218:~/mybackup# cd ..
+]0;root@ip-172-31-5-218: ~root@ip-172-31-5-218:~# du -sh
+1.1G	.
+]0;root@ip-172-31-5-218: ~root@ip-172-31-5-218:~# cd /opt/cloudera/parcel
+bash: cd: /opt/cloudera/parcel: No such file or directory
+]0;root@ip-172-31-5-218: ~root@ip-172-31-5-218:~# cd /opt/cloudera/parcels
+]0;root@ip-172-31-5-218: /opt/cloudera/parcelsroot@ip-172-31-5-218:/opt/cloudera/parcels# 
+]0;root@ip-172-31-5-218: /opt/cloudera/parcelsroot@ip-172-31-5-218:/opt/cloudera/parcels# ls -l
+total 8
+lrwxrwxrwx 1 root root   28 Mar 25 00:56 [0m[01;36mCDH[0m -> [01;34mCDH-5.10.0-1.cdh5.10.0.p0.41[0m
+drwxr-xr-x 9 root root 4096 Jan 20 21:50 [01;34mCDH-5.10.0-1.cdh5.10.0.p0.41[0m
+lrwxrwxrwx 1 root root   26 Mar 25 00:55 [01;36mKAFKA[0m -> [01;34mKAFKA-2.1.0-1.2.1.0.p0.115[0m
+drwxr-xr-x 6 root root 4096 Jan 24 22:50 [01;34mKAFKA-2.1.0-1.2.1.0.p0.115[0m
+]0;root@ip-172-31-5-218: /opt/cloudera/parcelsroot@ip-172-31-5-218:/opt/cloudera/parcels# du -sh *
+0	CDH
+2.3G	CDH-5.10.0-1.cdh5.10.0.p0.41
+0	KAFKA
+73M	KAFKA-2.1.0-1.2.1.0.p0.115
+]0;root@ip-172-31-5-218: /opt/cloudera/parcelsroot@ip-172-31-5-218:/opt/cloudera/parcels# tar =-cvf [K[K[K[K[K[K-cbvf[K[K[Kvf KAFKA-2.1.0-1.2.1.0.p0.115.tr[Kar KAFKA-2.1.0-1.2.1.0.p0.115
+KAFKA-2.1.0-1.2.1.0.p0.115/
+KAFKA-2.1.0-1.2.1.0.p0.115/meta/
+KAFKA-2.1.0-1.2.1.0.p0.115/meta/filelist.json
+KAFKA-2.1.0-1.2.1.0.p0.115/meta/kafka_env.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/meta/parcel.json
+KAFKA-2.1.0-1.2.1.0.p0.115/meta/alternatives.json
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/init.d/
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/init.d/kafka-mirror-maker
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/init.d/kafka-server
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/kafka/
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/kafka/conf.dist/
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/kafka/conf.dist/connect-standalone.properties
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/kafka/conf.dist/log4j.properties
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/kafka/conf.dist/connect-file-sink.properties
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/kafka/conf.dist/connect-log4j.properties
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/kafka/conf.dist/connect-console-sink.properties
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/kafka/conf.dist/connect-file-source.properties
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/kafka/conf.dist/connect-distributed.properties
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/kafka/conf.dist/server.properties
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/kafka/conf.dist/connect-console-source.properties
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/kafka/conf.dist/tools-log4j.properties
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/default/
+KAFKA-2.1.0-1.2.1.0.p0.115/etc/default/kafka
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jets3t-0.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/snappy-java-1.1.2.6.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jetty-continuation-9.2.15.v20160210.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/avro-1.7.6-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jackson-jaxrs-1.8.8.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jetty-http-9.2.14.v20151106.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/kafka_2.11-0.10.0-kafka-2.1.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/joda-convert-1.7.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/argparse4j-0.5.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jaxb-api-2.2.2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/rocksdbjni-4.4.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jsch-0.1.42.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/guice-servlet-3.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/kafka_2.11-0.10.0-kafka-2.1.0-sources.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jersey-common-2.22.2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jersey-server-2.22.2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/kafka-streams-examples-0.10.0-kafka-2.1.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/commons-io-2.4.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jackson-core-2.6.3.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/joda-time-2.7.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/commons-math3-3.1.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/commons-logging-1.2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jettison-1.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jersey-client-2.22.2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/hadoop-yarn-api-2.6.0-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jersey-guice-1.9.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jetty-util-9.2.14.v20151106.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/javassist-3.18.2-GA.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/slf4j-log4j12-1.7.21.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/kafka-tools-0.10.0-kafka-2.1.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/libfb303-0.9.3.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jackson-databind-2.6.2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/json4s-core_2.11-3.3.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/kafka-http-metrics-reporter-0.10.0-kafka-2.1.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jersey-client-1.9.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jackson-xc-1.8.8.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/javax.inject-1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/sentry-provider-file-1.5.1-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/lz4-1.3.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/scala-parser-combinators_2.11-1.0.4.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jackson-module-jaxb-annotations-2.6.3.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jackson-jaxrs-json-provider-2.6.3.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/zookeeper-3.4.6.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/javax.servlet-api-3.1.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jetty-6.1.26.cloudera.4.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jersey-core-1.9.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/connect-runtime-0.10.0-kafka-2.1.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/commons-compress-1.4.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/reflections-0.9.10.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/commons-beanutils-1.8.3.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/api-asn1-api-1.0.0-M20.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/kafka_2.11-0.10.0-kafka-2.1.0-test-sources.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/json4s-ast_2.11-3.3.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/sentry-policy-kafka-1.5.1-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jetty-server-9.2.14.v20151106.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jackson-annotations-2.6.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/hk2-utils-2.4.0-b34.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/commons-beanutils-core-1.8.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/commons-collections-3.2.2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/slf4j-api-1.7.5.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jersey-guava-2.22.2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/sentry-core-common-1.5.1-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jackson-databind-2.6.3.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/asm-3.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/httpclient-4.4.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/hadoop-yarn-server-common-2.6.0-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/zkclient-0.8.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/hadoop-common-2.6.0-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/sentry-provider-common-1.5.1-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/javax.inject-2.4.0-b34.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/connect-file-0.10.0-kafka-2.1.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/hadoop-mapreduce-client-jobclient-2.6.0-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/apacheds-kerberos-codec-2.0.0-M15.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/hadoop-yarn-common-2.6.0-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jackson-mapper-asl-1.8.8.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jetty-servlet-9.2.14.v20151106.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/cglib-2.2.1-v20090111.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/slf4j-log4j12-1.7.5.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jersey-media-jaxb-2.22.2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/hk2-api-2.4.0-b34.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/activation-1.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jetty-io-9.2.15.v20160210.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jdo-api-3.0.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jetty-util-6.1.26.cloudera.4.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/hadoop-auth-2.6.0-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/json4s-jackson_2.11-3.3.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/guice-3.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/json4s-scalap_2.11-3.3.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/java-xmlbuilder-0.4.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/hadoop-yarn-client-2.6.0-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/rl_2.11-0.4.10.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/hk2-locator-2.4.0-b34.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jackson-jaxrs-base-2.6.3.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/hadoop-mapreduce-client-shuffle-2.6.0-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/apacheds-i18n-2.0.0-M15.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jetty-io-9.2.14.v20151106.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/commons-configuration-1.6.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/commons-cli-1.2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/scala-xml_2.11-1.0.5.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/commons-lang-2.6.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/curator-client-2.9.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/sentry-policy-common-1.5.1-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jetty-server-9.2.15.v20160210.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jasper-compiler-5.5.23.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/hadoop-mapreduce-client-common-2.6.0-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/connect-json-0.10.0-kafka-2.1.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jaxb-impl-2.2.3-1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jetty-servlets-9.2.15.v20160210.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/curator-framework-2.9.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/aopalliance-repackaged-2.4.0-b34.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/libthrift-0.9.3.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jersey-container-servlet-2.22.2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/leveldbjni-all-1.8.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/sentry-binding-kafka-1.5.1-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/commons-el-1.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/javax.ws.rs-api-2.0.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/xmlenc-0.52.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/validation-api-1.1.0.Final.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jackson-core-2.6.2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/zookeeper-3.4.5-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/xz-1.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/gson-2.2.4.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jersey-server-1.9.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/log4j-1.2.17.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jetty-http-9.2.15.v20160210.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/juniversalchardet-1.0.3.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/protobuf-java-2.5.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jopt-simple-4.9.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/aopalliance-1.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/servlet-api-2.5.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/commons-digester-1.8.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/commons-pool2-2.2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/slf4j-api-1.7.21.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jsr305-3.0.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/guava-18.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jta-1.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/javax.annotation-api-1.2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jetty-security-9.2.15.v20160210.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/kafka-log4j-appender-0.10.0-kafka-2.1.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/mime-util-2.1.3.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/httpcore-4.4.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/api-util-1.0.0-M20.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jetty-security-9.2.14.v20151106.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/shiro-core-1.2.3.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/commons-net-3.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/connect-api-0.10.0-kafka-2.1.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/kafka-clients-0.10.0-kafka-2.1.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/htrace-core4-4.0.1-incubating.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/commons-httpclient-3.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/scalatra-common_2.11-2.3.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/sentry-provider-db-1.5.1-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/scalatra_2.11-2.3.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/hadoop-mapreduce-client-core-2.6.0-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/scala-library-2.11.8.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/metrics-core-2.2.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jersey-container-servlet-core-2.22.2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/paranamer-2.8.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/commons-codec-1.9.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jetty-servlet-9.2.15.v20160210.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/metrics-servlet-2.2.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/osgi-resource-locator-1.0.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/sentry-core-model-kafka-1.5.1-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/stax-api-1.0-2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/grizzled-slf4j_2.11-1.0.2.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/hadoop-annotations-2.6.0-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jackson-core-asl-1.8.8.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jersey-json-1.9.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jetty-util-9.2.15.v20160210.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/sentry-core-model-db-1.5.1-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jasper-runtime-5.5.23.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/scalatra-json_2.11-2.3.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/guava-16.0.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/hadoop-yarn-server-nodemanager-2.6.0-cdh5.9.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/jsp-api-2.1.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/libs/kafka-streams-0.10.0-kafka-2.1.0.jar
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/LICENSE
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/site-docs/
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/site-docs/kafka_2.11-0.10.0-kafka-2.1.0-site-docs.tgz
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/cloudera/
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/cloudera/cdh_version.properties
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/config
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/zookeeper-server-stop.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-replay-log-producer.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/zookeeper-shell.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-reassign-partitions.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-server-start.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-configs.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-sentry.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-consumer-offset-checker.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-topics.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-mirror-maker.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-preferred-replica-election.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-server-stop.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-console-producer.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-consumer-groups.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-producer-perf-test.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-verifiable-producer.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-simple-consumer-shell.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-console-consumer.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-run-class.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/zookeeper-server-start.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-acls.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/connect-distributed.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-consumer-perf-test.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/zookeeper-security-migration.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/connect-standalone.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-replica-verification.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/bin/kafka-verifiable-consumer.sh
+KAFKA-2.1.0-1.2.1.0.p0.115/lib/kafka/NOTICE
+KAFKA-2.1.0-1.2.1.0.p0.115/bin/
+KAFKA-2.1.0-1.2.1.0.p0.115/bin/kafka-consumer-offset-checker
+KAFKA-2.1.0-1.2.1.0.p0.115/bin/kafka-preferred-replica-election
+KAFKA-2.1.0-1.2.1.0.p0.115/bin/kafka-topics
+KAFKA-2.1.0-1.2.1.0.p0.115/bin/kafka-acls
+KAFKA-2.1.0-1.2.1.0.p0.115/bin/kafka-console-consumer
+KAFKA-2.1.0-1.2.1.0.p0.115/bin/kafka-configs
+KAFKA-2.1.0-1.2.1.0.p0.115/bin/kafka-run-class
+KAFKA-2.1.0-1.2.1.0.p0.115/bin/kafka-console-producer
+KAFKA-2.1.0-1.2.1.0.p0.115/bin/kafka-sentry
+KAFKA-2.1.0-1.2.1.0.p0.115/bin/kafka-reassign-partitions
+]0;root@ip-172-31-5-218: /opt/cloudera/parcelsroot@ip-172-31-5-218:/opt/cloudera/parcels# ls -l
+total 73388
+lrwxrwxrwx 1 root root       28 Mar 25 00:56 [0m[01;36mCDH[0m -> [01;34mCDH-5.10.0-1.cdh5.10.0.p0.41[0m
+drwxr-xr-x 9 root root     4096 Jan 20 21:50 [01;34mCDH-5.10.0-1.cdh5.10.0.p0.41[0m
+lrwxrwxrwx 1 root root       26 Mar 25 00:55 [01;36mKAFKA[0m -> [01;34mKAFKA-2.1.0-1.2.1.0.p0.115[0m
+drwxr-xr-x 6 root root     4096 Jan 24 22:50 [01;34mKAFKA-2.1.0-1.2.1.0.p0.115[0m
+-rw-r--r-- 1 root root 75141120 Apr 23 03:05 [01;31mKAFKA-2.1.0-1.2.1.0.p0.115.tar[0m
+]0;root@ip-172-31-5-218: /opt/cloudera/parcelsroot@ip-172-31-5-218:/opt/cloudera/parcels# 
+]0;root@ip-172-31-5-218: /opt/cloudera/parcelsroot@ip-172-31-5-218:/opt/cloudera/parcels# 
+]0;root@ip-172-31-5-218: /opt/cloudera/parcelsroot@ip-172-31-5-218:/opt/cloudera/parcels# hadoop fs [K - put[K[K[K[Kput KAFKA-2.1.0-1.2.1.0.p0.115.tar /
+put: Permission denied: user=root, access=WRITE, inode="/":hdfs:supergroup:drwxr-xr-x
+]0;root@ip-172-31-5-218: /opt/cloudera/parcelsroot@ip-172-31-5-218:/opt/cloudera/parcels# hadoop fs -put KAFKA-2.1.0-1.2.1.0.p0.115.tar /[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@s[1@u[1@d[1@o[1@ ls -l[Ktar -cvf KAFKA-2.1.0-1.2.1.0.p0.115.tar KAFKA-2.1.0-1.2.1.0.p0.115[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdu -sh *[Ktar -cvf KAFKA-2.1.0-1.2.1.0.p0.115.tar KAFKA-2.1.0-1.2.1.0.p0.115^C
+]0;root@ip-172-31-5-218: /opt/cloudera/parcelsroot@ip-172-31-5-218:/opt/cloudera/parcels# ssudo su[C[1P[C[C[C[C[C[C[C hdsf[K[K[K[K[K[K[K[K[K[K[K[Kl[Kcd
+]0;root@ip-172-31-5-218: ~root@ip-172-31-5-218:~# cd -
+/opt/cloudera/parcels
+]0;root@ip-172-31-5-218: /opt/cloudera/parcelsroot@ip-172-31-5-218:/opt/cloudera/parcels# ls -l
+total 73392
+lrwxrwxrwx 1 root root       28 Mar 25 00:56 [0m[01;36mCDH[0m -> [01;34mCDH-5.10.0-1.cdh5.10.0.p0.41[0m
+drwxr-xr-x 9 root root     4096 Jan 20 21:50 [01;34mCDH-5.10.0-1.cdh5.10.0.p0.41[0m
+lrwxrwxrwx 1 root root       26 Mar 25 00:55 [01;36mKAFKA[0m -> [01;34mKAFKA-2.1.0-1.2.1.0.p0.115[0m
+drwxr-xr-x 6 root root     4096 Jan 24 22:50 [01;34mKAFKA-2.1.0-1.2.1.0.p0.115[0m
+-rw-r--r-- 1 root root 75141120 Apr 23 03:05 [01;31mKAFKA-2.1.0-1.2.1.0.p0.115.tar[0m
+]0;root@ip-172-31-5-218: /opt/cloudera/parcelsroot@ip-172-31-5-218:/opt/cloudera/parcels# sudo hdfs hadoop fs -put KAFKA-2.1.0-1.2.1.0.p0.115.tar /
+Error: Could not find or load main class hadoop
+]0;root@ip-172-31-5-218: /opt/cloudera/parcelsroot@ip-172-31-5-218:/opt/cloudera/parcels# sudo hdfs hadoop fs -put KAFKA-2.1.0-1.2.1.0.p0.115.tar /[1@s[1@u[1@ 
+su: invalid option -- 'u'
+Usage: su [options] [LOGIN]
+
+Options:
+  -c, --command COMMAND         pass COMMAND to the invoked shell
+  -h, --help                    display this help message and exit
+  -, -l, --login                make the shell a login shell
+  -m, -p,
+  --preserve-environment        do not reset environment variables, and
+                                keep the same shell
+  -s, --shell SHELL             use SHELL instead of the default in passwd
+
+]0;root@ip-172-31-5-218: /opt/cloudera/parcelsroot@ip-172-31-5-218:/opt/cloudera/parcels# sudo su hdfs hadoop fs -put KAFKA-2.1.0-1.2.1.0.p0.115.tar /[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+hdfs@ip-172-31-5-218:/opt/cloudera/parcels$ jpssudo suls[Kcdlssudo su[K[K[K[K[K[K[Khadoop fs -put KAFKA-2.1.0-1.2.1.0.p0.115.tar /
+hdfs@ip-172-31-5-218:/opt/cloudera/parcels$ hadoop fs -ls /
+Found 5 items
+-rw-r--r--   3 hdfs supergroup   75141120 2017-04-23 03:07 /KAFKA-2.1.0-1.2.1.0.p0.115.tar
+drwxrwxr-x   - solr solr                0 2017-04-07 14:38 /solr
+drwxr-xr-x   - hdfs supergroup          0 2017-04-20 02:05 /system
+drwxrwxrwt   - hdfs supergroup          0 2017-04-23 02:42 /tmp
+drwxr-xr-x   - hdfs supergroup          0 2017-04-22 01:45 /user
+hdfs@ip-172-31-5-218:/opt/cloudera/parcels$ hadoop fs -ls [K[K[Ktouch /a
+-touch: Unknown command
+hdfs@ip-172-31-5-218:/opt/cloudera/parcels$ hadoop fs -touch /az /a
+hdfs@ip-172-31-5-218:/opt/cloudera/parcels$ hadoop fs -rm /a
+17/04/23 03:10:11 INFO fs.TrashPolicyDefault: Moved: 'hdfs://nameservice1/a' to trash at: hdfs://nameservice1/user/hdfs/.Trash/Current/a
+hdfs@ip-172-31-5-218:/opt/cloudera/parcels$ hadoop fs -ls hdfs://nameservice1/KAFKA-2.1.0-1.2.1.0.p0.115.tar
+-rw-r--r--   3 hdfs supergroup   75141120 2017-04-23 03:07 hdfs://nameservice1/KAFKA-2.1.0-1.2.1.0.p0.115.tar
+hdfs@ip-172-31-5-218:/opt/cloudera/parcels$ 
+hdfs@ip-172-31-5-218:/opt/cloudera/parcels$ 
+hdfs@ip-172-31-5-218:/opt/cloudera/parcels$ 
+hdfs@ip-172-31-5-218:/opt/cloudera/parcels$ 
+hdfs@ip-172-31-5-218:/opt/cloudera/parcels$ 
+hdfs@ip-172-31-5-218:/opt/cloudera/parcels$ cd
+hdfs@ip-172-31-5-218:~$ cd [K[K[Kexit
+exit
+]0;root@ip-172-31-5-218: /opt/cloudera/parcelsroot@ip-172-31-5-218:/opt/cloudera/parcels# cd
+]0;root@ip-172-31-5-218: ~root@ip-172-31-5-218:~# cd /mnt/cdh/nn/current/
+]0;root@ip-172-31-5-218: /mnt/cdh/nn/currentroot@ip-172-31-5-218:/mnt/cdh/nn/current# ls -l
+total 1128
+-rw-r--r-- 1 hdfs hdfs 1048576 Apr 23 03:13 edits_inprogress_0000000000001128844
+-rw-r--r-- 1 hdfs hdfs   83877 Apr 23 02:31 fsimage_0000000000001126853
+-rw-r--r-- 1 hdfs hdfs      62 Apr 23 02:31 fsimage_0000000000001126853.md5
+-rw-r--r-- 1 hdfs hdfs       8 Apr 23 02:31 seen_txid
+-rw-r--r-- 1 hdfs hdfs     172 Apr 23 02:31 VERSION
+]0;root@ip-172-31-5-218: /mnt/cdh/nn/currentroot@ip-172-31-5-218:/mnt/cdh/nn/current# date
+Sun Apr 23 03:15:22 UTC 2017
+]0;root@ip-172-31-5-218: /mnt/cdh/nn/currentroot@ip-172-31-5-218:/mnt/cdh/nn/current# 
